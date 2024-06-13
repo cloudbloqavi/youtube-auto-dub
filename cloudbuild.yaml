@@ -15,7 +15,7 @@ steps:
       - "--image=gcr.io/innerloop-alpha/youtube-auto-dub:latest"
       - "--region=us-central1" # Confirm this is your desired region
       - "--cpu=4"
-      - "--memory=8"
+      - "--memory=8Gi"
       - "--platform=managed"
       - "--allow-unauthenticated" # Consider removing if you need authenticatio
 
